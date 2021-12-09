@@ -16,7 +16,7 @@ class DemoApplicationTests {
 	
 	@Test
         void groupedAssertions() {
-        Personne pers = new Personne("Nassur", "Moumadi");
+        Personne pers = new Personne("Nassur", "Moumady");
 
         assertAll("personne", () -> assertEquals("Nassur", pers.getFirstName()),
                               () -> assertEquals("Moumadi", pers.getLastName()));
